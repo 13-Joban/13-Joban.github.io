@@ -91,34 +91,56 @@ This is the XAML code editor for a XAML document. The XAML code editor is a way 
 
 ## Step 3 Coding and Examining Output
 
-## XAML
+## XAML (MainWindow.xaml)
 
 ![Screenshot (651).png]({{site.baseurl}}/_posts/Screenshot (651).png)
 
 
 Let's break down this XAML code to understand it better. XAML is simply XML that can be processed by the compilers that WPF uses. It describes the WPF UI and interacts with .NET code. To understand XAML, you should, at a minimum, be familiar with the basics of XML.
 
-1. Grid
+### 1. Grid
 
 A Grid is a very powerful and useful Layout in WPF. It enables you to arrange children elements in cells defined by rows and columns. In fact, when we add a new XAML document or create a new WPF Project in Visual Studio, Visual Studio automatically adds a Grid as the first container inside the window element.
 
-2. Rectangle
+### 2. Rectangle
 
 The Rectangle object represents a rectangle shape and draws a rectangle with the given height and width. The Width and Height properties of the Rectangle class represent the width and height of a rectangle. The Fill property fills the interior of a rectangle. The Stroke property sets the color and StrokeThickness represents the width of the outer line of a rectangle.
 
 ****Note : We will be using Ellipse object for Circle and Polygon object for Triangle
 
-3. Ellipse
+### 3. Ellipse
 
 The Ellipse object represents an ellipse shape and draws an ellipse with the given height and width. The Width and Height properties of the Ellipse class represent the width and height of an ellipse. The Fill property fills the interior of an ellipse. The Stroke property sets the color and StrokeThickness represents the width of the outer line of an ellipse.
 
-4. Polygon
+### 4. Polygon
 
 A polygon is a series of connected lines which is a closed shape. A closed shape is a shape that has same start point and end point.
 
 The Polygon object represents a polygon shape and draws a polygon for the given connected points. The Fill property fills the interior of an ellipse. The Stroke property sets the color and StrokeThickness represents the width of the outer line of an ellipse. The Points property of the Polygon represents a collection of Point that defines the points in a polygon. 
 
-5.
+### 5. StackPanel
+
+A StackPanel places child elements in a vertical or horizontal stack. It is one of the popular panels because of its simplicity. By default, a StackPanel's child element grows from the top of the panel to the bottom, in other words in vertical orientation. We can control the position of elements using HorizontalAlignment or VerticalAlignment and control the spacing using margin and padding properties.
+
+### 6. Slider Control
+
+The Slider element in XAML represents a WPF Slider control.
+**Slider Control Properties**
+
+The Width and Height property represent the width and the height of the control. The Name property represents name of the control, which is a unique identifier of the control. The Background property is used to set the background color of the control. The Minimum and Maximum properties represent the minimum and maximum values of the slider range.
+
+**_That's all we need in our XAML now head over to Code Behind for implementing the Click event handlers_**
+
+## Code Behind (MainWindow.xaml.c#)
+
+
+
+
+
+
+
+
+ 
 
 
 
