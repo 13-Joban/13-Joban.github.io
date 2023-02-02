@@ -98,5 +98,32 @@ This is the XAML code editor for a XAML document. The XAML code editor is a way 
 
 Let's break down this XAML code to understand it better. XAML is simply XML that can be processed by the compilers that WPF uses. It describes the WPF UI and interacts with .NET code. To understand XAML, you should, at a minimum, be familiar with the basics of XML.
 
+1. Grid
+
+A Grid is a very powerful and useful Layout in WPF. It enables you to arrange children elements in cells defined by rows and columns. In fact, when we add a new XAML document or create a new WPF Project in Visual Studio, Visual Studio automatically adds a Grid as the first container inside the window element.
+
+2. Rectangle
+
+The Rectangle object represents a rectangle shape and draws a rectangle with the given height and width. The Width and Height properties of the Rectangle class represent the width and height of a rectangle. The Fill property fills the interior of a rectangle. The Stroke property sets the color and StrokeThickness represents the width of the outer line of a rectangle.
+
+****Note : We will be using Ellipse object for Circle and Polygon object for Triangle
+
+3. Ellipse
+
+The Ellipse object represents an ellipse shape and draws an ellipse with the given height and width. The Width and Height properties of the Ellipse class represent the width and height of an ellipse. The Fill property fills the interior of an ellipse. The Stroke property sets the color and StrokeThickness represents the width of the outer line of an ellipse.
+
+4. Polygon
+
+A polygon is a series of connected lines which is a closed shape. A closed shape is a shape that has same start point and end point.
+
+The Polygon object represents a polygon shape and draws a polygon for the given connected points. The Fill property fills the interior of an ellipse. The Stroke property sets the color and StrokeThickness represents the width of the outer line of an ellipse. The Points property of the Polygon represents a collection of Point that defines the points in a polygon. 
+
+5.
+
+
+
+
+
+
 
 
