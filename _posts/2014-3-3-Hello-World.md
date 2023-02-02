@@ -59,11 +59,44 @@ _Hope you are along  with me_
 
 6.In the Configure your new project window, do the following:
 
-	a. In the Project name box, enter Names.
-	b. Select the Place solution and project in the same directory check box.
-	c.Optionally, choose a different Location to save your code.
-	d.Select the Next button.
+a. In the Project name box, enter Names.
+b. Select the Place solution and project in the same directory check box.
+c.Optionally, choose a different Location to save your code.
+d.Select the Next button.
 
 ### Important parts of Visual Studio
 
 ![vs-main-window.png]({{site.baseurl}}/_posts/vs-main-window.png)
+
+
+1. Solution Explorer
+
+All of your project files, code, windows, resources, will appear in this pane.
+
+2. Properties
+
+This pane shows property settings you can configure based on the item selected. For example, if you select an item from Solution Explorer, you'll see property settings related to the file. If you select an object in the Designer, you'll see settings for that item.
+
+3. Toolbox
+
+The toolbox contains all of the controls you can add to a form. To add a control to the current form, double-click a control or drag-and-drop the control.
+
+4. XAML designer
+
+This is the designer for a XAML document. It's interactive and you can drag-and-drop objects from the Toolbox. By selecting and moving items in the designer, you can visually compose the user interface (UI) for your app.
+
+5.XAML code editor
+
+This is the XAML code editor for a XAML document. The XAML code editor is a way to craft your UI by hand without a designer. The designer may infer the values of properties on a control when the control is added in the designer. The XAML code editor gives you a lot more control.
+
+## Step 3 Coding and Examining Output
+
+## XAML
+
+![Screenshot (651).png]({{site.baseurl}}/_posts/Screenshot (651).png)
+
+
+Let's break down this XAML code to understand it better. XAML is simply XML that can be processed by the compilers that WPF uses. It describes the WPF UI and interacts with .NET code. To understand XAML, you should, at a minimum, be familiar with the basics of XML.
+
+
+
