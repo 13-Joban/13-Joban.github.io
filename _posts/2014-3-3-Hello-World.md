@@ -47,7 +47,7 @@ _Hope you are along  with me_
 
 2. Select Create a new project.
 
-![vs-create-new-project.png]({{site.baseurl}}/_posts/vs-create-new-project.png)
+![vs-create-new-project.png](./_posts/vs-create-new-project.png)
 
 3.In the Search for templates box, type wpf, and then press Enter.
 
