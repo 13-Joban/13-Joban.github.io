@@ -39,8 +39,37 @@ That's enough for introduction lets deep dive into our main task that means crea
 ## Step 1 Install Visual Studio 
 The Visual Studio IDE is a creative launching pad that you can use to edit, debug, and build code, and then publish an app. Over and above the standard editor and debugger that most IDEs provide, Visual Studio includes compilers, code completion tools, graphical designers, and many more features to enhance the software development process.
 Visit https://visualstudio.microsoft.com/
+
 _Hope you are along  with me_
-## Step 2 
+## Step 2 Setup of project
+
+1. Open Visual Studio.
+
+2. Select Create a new project.
+
+![vs-create-new-project.png]({{site.baseurl}}/_posts/vs-create-new-project.png)
+
+3.In the Search for templates box, type wpf, and then press Enter.
+
+4. In the code language dropdown, choose C# or Visual Basic.
+
+5. In the templates list, select WPF Application and then select Next.
+
+![vs-template-search.png]({{site.baseurl}}/_posts/vs-template-search.png)
+
+6.In the Configure your new project window, do the following:
+
+	a. In the Project name box, enter Names.
+	b. Select the Place solution and project in the same directory check box.
+	c.Optionally, choose a different Location to save your code.
+	d.Select the Next button.
+
+### Important parts of Visual Studio
+
+![vs-main-window.png]({{site.baseurl}}/_posts/vs-main-window.png)
+
+
+
 
 
 
