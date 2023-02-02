@@ -67,11 +67,3 @@ _Hope you are along  with me_
 ### Important parts of Visual Studio
 
 ![vs-main-window.png]({{site.baseurl}}/_posts/vs-main-window.png)
-
-
-
-
-
-
-
-
