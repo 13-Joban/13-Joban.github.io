@@ -1,10 +1,11 @@
 ---
 layout: post
-title: WPF
+title: ' WPF app in C# '
 published: true
 ---
-title: WPF app in C# 
-In this tutorial, i will share my experience about creating an application in **WPF** using C# which creates rectangle, circle and triangle with given input parameters.
+
+_Hey there 🖐, glad you visited my blog this is my first time I am writing about what i have learned so without wasting your precious time lets gets Started 🚀.
+In this tutorial, i will share my experience about creating an application in **WPF** using C# which creates rectangle, circle and triangle with given input parameters._
 
 ### What actually is WPF ?
 Windows Presentation Foundation (WPF), a UI framework that is resolution-independent and uses a vector-based rendering engine, built to take advantage of modern graphics hardware. WPF provides a comprehensive set of application-development features that include Extensible Application Markup Language (XAML), controls, data binding, layout, 2D and 3D graphics, animation, styles, templates, documents, media, text, and typography. WPF is part of .NET, so you can build applications that incorporate other elements of the .NET API.
@@ -21,5 +22,27 @@ XAML is an XML-based markup language that implements an application's appearance
 
 The following example uses XAML to implement the appearance of a window that contains a single button:
 ![beautify-picture.png]({{site.baseurl}}/_posts/beautify-picture.png)
+
+The following figure shows the user interface (UI) that is defined by the XAML in the previous example:
+
+![markup-window-button.png]({{site.baseurl}}/_posts/markup-window-button.png)
+
+
+## Code Behind
+The main behavior of an application is to implement the functionality that responds to user interactions. For example clicking a menu or button, and calling business logic and data access logic in response. In WPF, this behavior is implemented in code that is associated with markup. This type of code is known as code-behind. The following example shows the updated markup from the previous example and the code-behind:
+
+![markup-window-button-clicked.png]({{site.baseurl}}/_posts/markup-window-button-clicked.png)
+
+
+That's enough for introduction lets deep dive into our main task that means creating an application in  WPF using C# 
+
+## Step 1 Install Visual Studio 
+The Visual Studio IDE is a creative launching pad that you can use to edit, debug, and build code, and then publish an app. Over and above the standard editor and debugger that most IDEs provide, Visual Studio includes compilers, code completion tools, graphical designers, and many more features to enhance the software development process.
+Visit https://visualstudio.microsoft.com/
+_Hope you are along  with me_
+## Step 2 
+
+
+
 
 
